@@ -1,0 +1,1 @@
+/usr/local/spark/spark-2.3.0-bin-hadoop2.7/bin/spark-submit --class com.tima.flume2spark.job.FlumePushDate2SparkStreaming --master spark://DataWorks.Master:7077 /usr/local/sparkApps/flume2spark-0.0.1-SNAPSHOT.jar
