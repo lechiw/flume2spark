@@ -13,11 +13,7 @@ import org.apache.spark.streaming.api.java.JavaStreamingContext;
 import org.apache.spark.streaming.flume.FlumeUtils;
 import org.apache.spark.streaming.flume.SparkFlumeEvent;
 import scala.Tuple2;
-/**
- * @Description:Flume推送数据到SparkStreaming例子
- * @Author: lujinyong168
- * @Date: 2016年6月19日 上午11:40:13
- */
+
 public class FlumePushDate2SparkStreaming {
 
     public static void main(String[] args) throws InterruptedException {
